@@ -1,15 +1,15 @@
-# EdaX ✨
+# EdaX
 
-A kid-friendly exploration game for Android. Explore worlds, finish random tasks,
-earn tickets, and dress up your explorer.
+An isometric survey expedition for Android. Work five regions, close out field
+objectives, earn credits, upgrade your loadout.
 
 ## Download
 
-**[Edax.apk](Edax.apk)** — 41.7 MB
+**[Edax.apk](Edax.apk)** — 42.2 MB
 
 | | |
 | --- | --- |
-| Version | 1.0.0 (build 1) |
+| Version | 2.0.0 (build 2) |
 | Package | `com.alina.edax` |
 | Requires | Android 7.0 (API 24) or newer |
 | Supports | arm64-v8a, armeabi-v7a, x86_64 |
@@ -23,25 +23,35 @@ earn tickets, and dress up your explorer.
 > This build is signed with a debug key, which is fine for sideloading and testing.
 > A Play Store release would need a proper upload keystore.
 
-## What the game is
+## The game
 
-You are a little explorer. Every trip gives you **three surprise tasks**, **three
-hearts**, and a **map that fills in as you walk around**. Finish all three tasks to
-earn a star — stars unlock new places. Everything you pick up pays out **tickets**,
-and tickets buy outfits, hats, capes and animal buddies in the Wardrobe.
+You are a field surveyor. Every deployment gives you a **manifest of three
+objectives**, a **health and stamina budget**, and a **map that fills in as you walk
+it**. Close the whole manifest to raise that region's survey rating — rating is what
+opens the next region. Everything you do pays credits and experience.
 
-**Five places to explore:** Sunny Meadow 🌿 · Shelly Beach 🐚 · Candy Grove 🍭 ·
-Frosty Peak ❄ · Starlight Lake ⭐
+**Objectives** are rolled fresh each time: recover resources, scan wildlife (hold
+position until the scan locks, while the animal shies away), reach structures, clear
+obstructions, bring relay nodes back online.
 
-**Controls:** hold the on-screen arrows to walk, or drag anywhere on the world.
-Arrow keys and WASD work too.
+**Systems:** health and environmental hazards · stamina, sprinting and climbing ·
+real terrain elevation you can only climb one step at a time · experience and levels
+that raise your ceilings · a day/night cycle that changes the light, the shadows and
+whether beacons are lit · 25 gear items across four slots, each carrying real stats.
 
-## Made for children
+**Five regions:** Verdant Basin · Ashfall Ridge · Glacier Shelf · Dunesea ·
+Nocturne Reach — each with its own terrain palette, wildlife, hazards and time of day.
 
-- **No combat, no enemies, no losing.** The only setbacks are a buzzy bee, a splashy
-  puddle or a slippy ice patch. Bumping one costs a heart and makes your explorer hop
-  backwards — nothing more.
-- Running out of hearts shows *"Time for a rest!"* and you keep every ticket you found.
-- Two of the five task types are **tidying up litter** and **watering thirsty sprouts**.
-- **No ads, no in-app purchases, no analytics, and no network access at all.** The only
-  thing the app writes is a local save file on the device.
+## Controls
+
+- Hold the pad — rotated 45° to match isometric movement.
+- Drag anywhere on the world to steer; pinch to zoom.
+- Hold the ring button to sprint; it doubles as the stamina gauge.
+- Keyboard: arrows or WASD (rotated clockwise onto the diamond), Shift to sprint.
+
+## Notes
+
+No ads, no in-app purchases, no analytics, no network access. The only thing the app
+writes is a local save file on the device. There is no combat — setbacks are
+environmental, and being downed just extracts you with everything you recovered
+intact.
