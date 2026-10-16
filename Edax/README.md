@@ -10,7 +10,7 @@ earn tickets, and dress up your explorer.
 | | |
 | --- | --- |
 | Version | 1.0.0 (build 1) |
-| Package | `com.mercurialminds.edax` |
+| Package | `com.alina.edax` |
 | Requires | Android 7.0 (API 24) or newer |
 | Supports | arm64-v8a, armeabi-v7a, x86_64 |
 
